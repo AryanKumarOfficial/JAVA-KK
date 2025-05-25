@@ -1,4 +1,4 @@
-package com.aryankumarofficial.basic.area;
+package com.aryankumarofficial.loopsAndConditions.basic.area;
 // area of triangle
 
 import java.util.Scanner;

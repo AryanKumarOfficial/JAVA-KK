@@ -1,4 +1,4 @@
-package com.aryankumarofficial.basic.area;
+package com.aryankumarofficial.loopsAndConditions.basic.area;
 
 import java.util.Formatter;
 import java.util.Scanner;
