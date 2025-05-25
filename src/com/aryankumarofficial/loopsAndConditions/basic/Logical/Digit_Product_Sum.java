@@ -3,7 +3,7 @@ package com.aryankumarofficial.loopsAndConditions.basic.Logical;
 import java.util.Scanner;
 
 /**
- * To calculate the sum and product of the digits of a given number
+ * To calculate the difference of product and sum of the digits of a given number
  */
 public class Digit_Product_Sum {
     public static void main(String[] args) {
@@ -18,8 +18,8 @@ public class Digit_Product_Sum {
                 product *= rem;
                 num /= 10;
             }
-            System.out.println("Sum of the digits is: " + sum);
-            System.out.println("Product of the digits is: " + product);
+            int difference = product - sum;
+            System.out.println("The difference between the product and the sum of digits: " + difference);
         }
     }
 
