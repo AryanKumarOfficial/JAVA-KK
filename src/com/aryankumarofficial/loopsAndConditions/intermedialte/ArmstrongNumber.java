@@ -16,8 +16,7 @@ public class ArmstrongNumber {
     private static boolean isArmstrong(int n, int digits) {
         double sum = calculateSum(n, digits);
 
-        if (sum == n) return true;
-        else return false;
+        return sum == n;
     }
 
     public static double calculateSum(int n, int digits) {
