@@ -15,7 +15,7 @@ public class HCF {
         }
     }
 
-    private static int calculateHCF(int firstNumber, int secondNumber) {
+    protected static int calculateHCF(int firstNumber, int secondNumber) {
         while (secondNumber != 0) {
             int r = firstNumber % secondNumber;
             firstNumber = secondNumber;
